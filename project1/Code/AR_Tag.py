@@ -31,13 +31,13 @@ print("")
 
 option = int(input("Make your selection: "))
 if option == 1:
-    cap = cv2.VideoCapture('Tag0.mp4')
+    cap = cv2.VideoCapture('../Data/Tag0.mp4')
 elif option == 2:
-    cap = cv2.VideoCapture('Tag1.mp4')
+    cap = cv2.VideoCapture('../Data/Tag1.mp4')
 elif option == 3:
-    cap = cv2.VideoCapture('Tag2.mp4')
+    cap = cv2.VideoCapture('../Data/Tag2.mp4')
 elif option == 4:
-    cap = cv2.VideoCapture('multipleTags.mp4')
+    cap = cv2.VideoCapture('../Data/multipleTags.mp4')
 else:
     print("The option you selected doesnot exists, stopping the execution")
     exit(0)
